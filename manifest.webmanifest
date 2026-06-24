@@ -2,15 +2,23 @@
   "name": "飲食紀錄 App",
   "short_name": "飲食紀錄",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f6f7fb",
   "theme_color": "#2563eb",
   "description": "個人飲食、營養與體重追蹤工具。",
   "icons": [
     {
-      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%232563eb'/%3E%3Ctext x='96' y='118' text-anchor='middle' font-size='88' fill='white'%3E食%3C/text%3E%3C/svg%3E",
+      "src": "./icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml"
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

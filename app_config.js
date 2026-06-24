@@ -1,5 +1,5 @@
 // app_config.js
-// 請填入你的 Supabase Project URL 與 anon public key。
+// Supabase 設定：請填入 Project URL 與 anon public key。
 // 注意：不要把 service_role key 放在前端。
 window.APP_CONFIG = {
   SUPABASE_URL: "https://fanaoevktkeqyrmahzld.supabase.co",
